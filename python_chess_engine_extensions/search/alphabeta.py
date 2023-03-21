@@ -19,9 +19,9 @@
 
 import chess
 
-from definitions import INFINITE, MAX_PLY, MATE
-from evaluation.piece_values import PIECE_VALUES
-from search.base import BaseSearch
+from python_chess_engine_extensions.definitions import INFINITE, MAX_PLY, MATE
+from python_chess_engine_extensions.evaluation.piece_values import PIECE_VALUES
+from python_chess_engine_extensions.search.base import BaseSearch
 
 
 def move_sorting_policy(board: chess.Board, m: chess.Move):

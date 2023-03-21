@@ -19,8 +19,8 @@
 
 import chess
 
-from definitions import INFINITE, MAX_PLY, MATE
-from search.base import BaseSearch
+from python_chess_engine_extensions.definitions import INFINITE, MAX_PLY, MATE
+from python_chess_engine_extensions.search.base import BaseSearch
 
 
 def is_drawn(board: chess.Board):
